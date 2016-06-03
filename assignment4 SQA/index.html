@@ -1,0 +1,124 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cody's Vehicle Service</title>
+    <script src="js/lib/jquery-2.1.4.js"></script>
+    <script src="js/lib/jquery.validate.js"></script>
+    <script src="js/global.js"></script>
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="searchPage" class="background">
+        <header data-role="page">
+            <h1>Search Or Add a Vehicle</h1>
+        </header>
+        <div id="contiainer">
+            <p>Make a selection to start.</p>
+            <button id="btnNew" name="btnNew">New</button>
+            <button id="btnSearch" name="btnSearch">Search</button>
+            <footer>
+                <h4>&copy; Cody Lefebvre 2016</h4>
+            </footer>
+        </div>
+    </div>
+
+    <div id="infoPage" class="background">
+        <header>
+            <h1>Information</h1>
+        </header>
+        <div id="infoContainer">
+                <form id="vehicleForm">
+                    <p>Please complete the form to continue.</p>
+                    <label for="txtSellerName">Seller Name:</label>
+                    <input type="text" id="txtSellerName" name="txtSellerName" /><br />
+
+                    <label for="txtAddress">Address</label>
+                    <input type="text" id="txtAddress" name="txtAddress" /><br />
+
+                    <label for="txtPhone">Phone Number:</label>
+                    <input type="text" id="txtPhone" name="txtPhone" /><br />
+
+                    <label for="txtEmail">Email Address:</label>
+                    <input type="text" id="txtEmail" name="txtEmail"/><br />
+
+                    <label for="cmbMake">Make:</label>
+                    <select id="cmbMake" name="cmbMake">
+                        <option value="Ford">Ford</option>
+                        <option value="GM">GM</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="Kia">Kia</option>
+                        <option value="Mitsubishi">Mitsubishi</option>
+                        <option value="Poniac">Poniac</option>
+                    </select><br />
+
+                    <label for="txtModel">Model:</label>
+                    <input type="text" id="txtModel" name="txtModel"/><br />
+
+                    <label for="cmbYear">Year:</label>
+                    <select id="cmbYear" name="txtYear">
+
+                    </select>
+
+                </form>
+            <button id="btnSubmit">Submit</button>
+        </div>
+        <footer>
+            <h4>&copy; Cody Lefebvre 2016</h4>
+        </footer>
+    </div>
+
+    <div id="linkPage" class="background">
+        <header>
+            <h1>Information Entered:</h1>
+        </header>
+        <div id="linkContainer">
+            <p>Here is the information you entered. The JD Power site has provided a link to your vehicle.</p>
+            <label for="txtSellerName2">Seller Name:</label>
+            <p id="txtSellerName2"></p>
+
+            <label for="txtAddress2">Address</label>
+            <p id="txtAddress2"></p>
+
+            <label for="txtPhone2">Phone Number:</label>
+            <p id="txtPhone2"></p>
+
+            <label for="txtEmail2">Email Address:</label>
+            <p id="txtEmail2"></p>
+
+            <label for="txtMake2">Make:</label>
+            <p id="txtMake2"></p>
+
+            <label for="txtModel2">Model:</label>
+            <p id="txtModel2"></p>
+
+            <label for="txtYear2">Year:</label>
+            <p id="txtYear2"></p>
+            <br />
+            <input type="button" id="btnHome" value="Home"/>
+
+            <br />
+            <a href="" id="lnkJDPower">CLick here to go to JD Power</a>
+            <br />
+        </div>
+        <footer>
+            <h4>&copy; Cody Lefebvre 2016</h4>
+        </footer>
+    </div>
+
+    <div id="listPage" class="background">
+        <header>
+            <h1>Previousely Entered:</h1>
+        </header>
+        <p>Below is a list of cars previousely entered.</p>
+        <div id="vehicleList">
+            <ul id="vehicleLists">
+            </ul>
+        </div>
+        <button id="btnGoHome">Go Home</button>
+        <footer>
+            <h4>&copy; Cody Lefebvre 2016</h4>
+        </footer>
+    </div>
+</body>
+</html>

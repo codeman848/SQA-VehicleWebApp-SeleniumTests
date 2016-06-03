@@ -1,0 +1,29 @@
+.background{
+    background-color:#2d8bc9;
+    border:3px solid #009cef;
+    border-radius:3px;
+    padding:5px;
+    text-align:center;
+}
+
+body{
+    background-color:black;
+}
+
+#infoPage form{
+    text-align:right;
+    margin-right:45%;
+}
+label.error {
+    color:#FF0000;
+    font-weight: bold;
+}
+#linkContainter{
+    display:inline;
+}
+#listPage{
+    list-style: none;
+}
+#linkPage label{
+    font-weight: bold;
+}
